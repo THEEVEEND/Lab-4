@@ -1,0 +1,36 @@
+
+
+/* Estilos para cada tarjeta */
+section {
+    width: 350px; /* Ajusta el ancho de las tarjetas según sea necesario */
+    border: 1px solid hotpink;
+    border-radius: 8px;
+    overflow: hidden; /* Ocultar cualquier desbordamiento */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: pink;
+    text-align: center; /* Centrar contenido verticalmente */
+    transition: transform 0.3s ease; /* Agregar transición para el efecto hover */
+  }
+  
+  /* Estilos para la imagen */
+  section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; /* Espacio entre la imagen y el encabezado */
+  }
+  
+  /* Estilos para el encabezado */
+  section h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color: darkmagenta;
+  }
+  
+  /* Estilos para el efecto hover */
+  section:hover {
+    transform: scale(1.05); /* Cambiar el tamaño al hacer hover */
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+    filter: brightness(0.7); 
+  }
+  
